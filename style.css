@@ -1,10 +1,10 @@
 /*Style for Atoms to Astronauts Website*/
 
 /*Built in elements*/
-html{
-  background-color: 
-  #e8e8e8
-  ; 
+a {
+  text-decoration: none; 
+  color: #000; 
+  font-family: Verdana, Geneva, sans-serif;
 }
 body {
     background-color: #e0ffe7;
@@ -13,6 +13,27 @@ body {
     margin-right: 300px; 
   }
 
+.button {
+  background-color:  #e8e8e8;
+  border: none; 
+  border-radius: 10px; 
+  height: 40px; 
+  min-width: 100px; 
+  margin: 20px; 
+  padding: 5px; 
+}
+
+.button:hover {
+  background-color:  #cecece;
+}
+
+footer {
+  padding: 20px; 
+  display: flex; 
+  flex-direction: row; 
+  float: right; 
+}
+
 h1 {
     font-size: 50px; 
     color: #000; 
@@ -20,8 +41,14 @@ h1 {
 }
 
 hr {
+    background-color: #46cead;
     color: #46cead;
     padding: 0;
+    height: 10px; 
+}
+
+html{
+  background-color:  #e8e8e8;
 }
 
 .logo img {
@@ -36,7 +63,12 @@ p {
   padding-right: 100px;  
 }
 
-/*Classes*/
+.stars img {
+  float: right; 
+  width: 100px; 
+  height: 100px; 
+}
+
 .top-email{
   float: right;
   margin-top: 70px;
