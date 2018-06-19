@@ -28,6 +28,7 @@ body {
 }
 
 footer {
+  background-color: #e0ffe7;
   padding: 20px; 
   display: flex; 
   flex-direction: row; 
