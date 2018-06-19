@@ -46,15 +46,15 @@ body {
 }
 
 footer {
-  background-color: #e0ffe7;
+  background-color: #46cead;
   padding: 20px; 
   display: flex; 
   flex-direction: row; 
-  float: right; 
+  justify-content: flex-end;  
 }
 
 h1 {
-    font-size: 50px; 
+    font-size: 35px; 
     color: #000; 
     text-align: center;
 }
