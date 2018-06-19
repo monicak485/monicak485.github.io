@@ -1,6 +1,16 @@
+/*Style for Atoms to Astronauts Website*/
+
+/*Built in elements*/
+html{
+  background-color: 
+  #e8e8e8
+  ; 
+}
 body {
     background-color: #e0ffe7;
     font-family: Verdana, Geneva, sans-serif; 
+    margin-left: 300px; 
+    margin-right: 300px; 
   }
 
 h1 {
@@ -22,25 +32,35 @@ hr {
 }
 
 p {
-    padding-left: 100px;
-    padding-right: 100px;  
+  padding-left: 100px;
+  padding-right: 100px;  
 }
 
+/*Classes*/
+.top-email{
+  float: right;
+  margin-top: 70px;
+  margin-right: 5px;    
+}
+
+/*Top Navigation*/
 .navbar {
     overflow: hidden;
     background-color: #46cead;
+    
   }
   
-  /* Links inside the navbar */
+  /* Links inside the nav*/
   .navbar a {
     float: left;
     font-size: 16px;
     color: #000;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none; 
   }
   
-  /* The dropdown container */
+  /* Dropdown Links */
   .dropdown {
     float: left;
     overflow: hidden;
@@ -54,16 +74,14 @@ p {
     color: #000;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: inherit; 
+    margin: 0; 
   }
-  
-  /* Add a red background color to navbar links on hover */
+
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #41be9f;
   }
   
-  /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -83,12 +101,10 @@ p {
     text-align: left;
   }
   
-  /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #98adaa;
+    background-color: #42c2a3;
   }
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
