@@ -11,9 +11,8 @@
 
             function sendMail() {
             var link = "mailto:atomstoastronauts@gmail.com"
-             + "&subject=" + escape("This is my subject")
-             + "&body=" + escape(document.getElementById('myText').value)
-            ;window.location.href = link;
+             + "?body=" + escape(document.getElementById('myText').value)
+             window.location.href = link;
             }
 
         </script> 
