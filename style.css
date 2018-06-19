@@ -8,10 +8,10 @@ a {
   font-size: 17px; 
 }
 body {
-    background-color: #e0ffe7;
-    font-family: Verdana, Geneva, sans-serif; 
-    margin-left: 300px; 
-    margin-right: 300px; 
+  background-color: #e0ffe7;
+  font-family: Verdana, Geneva, sans-serif; 
+  margin-left: 300px; 
+  margin-right: 300px; 
   }
 
 .button {
@@ -22,9 +22,27 @@ body {
   min-width: 100px; 
   margin: 20px; 
   padding: 10px; 
+  font-size: 17px; 
 }
 
 .button:hover {
+  background-color:  #cecece;
+}
+
+.button-centered {
+  background-color:  #e8e8e8;
+  border: none; 
+  border-radius: 10px; 
+  height: 40px; 
+  min-width: 100px; 
+  padding: 10px; 
+  font-size: 17px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.button-centered:hover {
   background-color:  #cecece;
 }
 
@@ -40,6 +58,17 @@ h1 {
     font-size: 50px; 
     color: #000; 
     text-align: center;
+}
+
+h2 {
+  font-size: 20px; 
+  font-weight: 104px; 
+  text-align: center; 
+}
+
+h3 {
+  text-align: center; 
+  color: #424953; 
 }
 
 hr {
@@ -69,6 +98,15 @@ p {
   float: right; 
   width: 100px; 
   height: 100px; 
+}
+
+textarea {
+  width: 500px; 
+  height: 250px; 
+  font-family: Verdana, Geneva, sans-serif; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .top-email{

@@ -8,11 +8,24 @@
             $("#header").load("header.html"); 
             $("#footer").load("footer.html");
             });
+
+            function sendMail() {
+            var link = "mailto:atomstoastronauts@gmail.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + escape(document.getElementById('myText').value)
+            ;window.location.href = link;
+            }
+
         </script> 
     </head>
     <body>
         <div id="header"></div>
         <h1> Contact </h1>
+        <h3> Contact us by sending us an email at atomstoastronauts@gmail.com! </h3>
+        <textarea id="myText">Start typing your email here...
+        </textarea>
+        <br>
+        <button class = "button-centered" onclick="sendMail(); return false">Send</button>
         <div id="footer"></div>
     </body>
 </html>
