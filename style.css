@@ -10,8 +10,8 @@ a {
 body {
   background-color: #e0ffe7;
   font-family: Verdana, Geneva, sans-serif; 
-  margin-left: 300px; 
-  margin-right: 300px; 
+  margin-left: 200px; 
+  margin-right: 200px; 
   }
 
 .button {
@@ -46,6 +46,13 @@ body {
 }
 
 footer {
+  position: fixed; 
+  left: 0; 
+  bottom: 0; 
+  right: 0; 
+  margin-left: 200px; 
+  margin-right: 200px; 
+  margin-bottom: 0; 
   background-color: #46cead;
   padding: 20px; 
   display: flex; 
