@@ -113,6 +113,14 @@ html{
   margin-right: auto;
 }
 
+object {
+  height: 800px; 
+  width: 1000px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
 p {
   padding-left: 100px;
   padding-right: 100px; 
@@ -122,6 +130,13 @@ p {
   text-align: center; 
   padding-left: 250px;
   padding-right: 250px;
+}
+
+.star-divider img {
+  display: block; 
+  margin: 30px auto; 
+  width: 200px; 
+  height: 170px; 
 }
 
 .stars img {
