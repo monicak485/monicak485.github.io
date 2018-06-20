@@ -7,6 +7,9 @@ a {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 17px; 
 }
+.a-link-unique {
+  text-decoration: underline; 
+}
 body {
   background-color: #e0ffe7;
   font-family: Verdana, Geneva, sans-serif; 
@@ -43,6 +46,20 @@ body {
 
 .button-centered:hover {
   background-color:  #cecece;
+}
+
+.centered-image img {
+  width: 250px; 
+  height: 250px;
+  display: block;
+  margin: 50px auto; 
+}
+
+.centered-image-nonsquare img {
+  width: 250px; 
+  height: 300px;
+  display: block;
+  margin: 50px auto; 
 }
 
 footer {
@@ -97,7 +114,13 @@ html{
 
 p {
   padding-left: 100px;
-  padding-right: 100px;  
+  padding-right: 100px; 
+}
+
+.p-center {
+  text-align: center; 
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .stars img {
