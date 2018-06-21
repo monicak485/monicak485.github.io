@@ -128,11 +128,12 @@ html{
 }
 
 object {
-  height: 800px; 
-  width: 1000px; 
+  height: 80%; 
+  width: 80%; 
   display: block; 
   margin-left: auto; 
   margin-right: auto; 
+  padding: 10px 0; 
 }
 
 p {
@@ -142,8 +143,8 @@ p {
 
 .p-center {
   text-align: center; 
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .star-divider img {
@@ -166,8 +167,8 @@ p {
 }
 
 textarea {
-  width: 500px; 
-  height: 250px; 
+  width: 70%; 
+  height: 50%; 
   font-family: Verdana, Geneva, sans-serif; 
   display: block; 
   margin-left: auto; 
