@@ -10,6 +10,13 @@ a {
 .a-link-unique {
   text-decoration: underline; 
 }
+
+.a-link-alligned {
+  text-decoration: underline; 
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 body {
   position: relative;
   margin: 0px 200px; 
@@ -60,6 +67,14 @@ body {
   margin: 50px auto; 
 }
 
+.centered-image-kids img {
+  width: 50%; 
+  height: 50%; 
+  display: block;
+  margin: 0 auto;
+  padding: 10px;  
+}
+
 .centered-image-nonsquare img {
   width: 250px; 
   height: 300px;
@@ -99,6 +114,7 @@ h2 {
 h3 {
   text-align: center; 
   color: #424953; 
+  text-decoration: underline;
 }
 
 hr {
@@ -108,7 +124,7 @@ hr {
     height: 2px; 
 }
 
-html{
+html {
   background-color:  #e8e8e8;
   height: 100%; 
   box-sizing: border-box; 
@@ -118,6 +134,14 @@ html{
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+.img-src {
+  font-size: 10px; 
+  color: #a1a4a8; 
+  text-align: center; 
+  margin:0 26%; 
+  padding: 0px; 
 }
 
 .logo img {
